@@ -7,7 +7,7 @@ const MediaObject1 = props => {
 				<div className='row d-flex'>
 					<div className='col-md-6 rounded'>
 						<div
-							className='container border round_corner'
+							className='container round_corner'
 							style={{
 								height: 300,
 								backgroundImage:
