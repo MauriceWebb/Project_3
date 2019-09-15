@@ -3,7 +3,7 @@ import React from 'react';
 const MediaObject2 = props => {
 	return (
 		<div>
-			<div className='container rounded'>
+			<div className='container rounded mb-4'>
 				<div className='row d-flex'>
 					<div className='col-md-6 py-3 d-flex justify-content-center align-items-center rounded'>
 						<div className='container'>
@@ -26,12 +26,18 @@ const MediaObject2 = props => {
 							</div>
 						</div>
 					</div>
-					<div className='col-md-6 rounded round_corner' style={{
-						height: 300,
-						backgroundImage: "url('https://c3k4b8c2.stackpathcdn.com/wp-content/uploads/2016/07/5-Facts-About-Drug-Abuse-You-Should-Know-1-2.jpg')",
-						backgroundSize: 'cover',
-						backgroundPosition: 'center'
-				}} />
+					<div className='col-md-6 rounded'>
+						<div
+							className='container round_corner'
+							style={{
+								height: 300,
+								backgroundImage:
+									"url('https://c3k4b8c2.stackpathcdn.com/wp-content/uploads/2016/07/5-Facts-About-Drug-Abuse-You-Should-Know-1-2.jpg')",
+								backgroundSize: 'cover',
+								backgroundPosition: 'center'
+							}}
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
